@@ -1,0 +1,38 @@
+CRITICAL - 2023-11-02 09:48:11 --> Undefined property: stdClass::$row_status
+#0 C:\xampp\htdocs\Pengaduan\app\Controllers\Admin\ManageUser.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 49)
+#1 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin\ManageUser->dt_users()
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\ManageUser))
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-11-02 10:37:16 --> Duplicate entry '' for key 'email'
+ERROR - 2023-11-02 10:39:56 --> Duplicate entry '' for key 'email'
+ERROR - 2023-11-02 10:40:44 --> Duplicate entry '' for key 'email'
+ERROR - 2023-11-02 10:42:40 --> Duplicate entry '' for key 'email'
+ERROR - 2023-11-02 10:43:20 --> Duplicate entry '' for key 'email'
+ERROR - 2023-11-02 10:50:36 --> Duplicate entry '' for key 'email'
+CRITICAL - 2023-11-02 23:18:47 --> Undefined variable $lokasi
+#0 C:\xampp\htdocs\Pengaduan\app\Views\auth\register.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('auth/register', Array, true)
+#4 C:\xampp\htdocs\Pengaduan\app\Controllers\Auth.php(110): view('auth/register', Array)
+#5 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Auth->register()
+#6 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-11-02 23:25:17 --> Undefined array key "id_lokasi"
+#0 C:\xampp\htdocs\Pengaduan\app\Views\auth\register.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 54)
+#1 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('auth/register', Array, true)
+#4 C:\xampp\htdocs\Pengaduan\app\Controllers\Auth.php(113): view('auth/register', Array)
+#5 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Auth->register()
+#6 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}

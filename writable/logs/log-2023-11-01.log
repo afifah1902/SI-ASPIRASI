@@ -1,0 +1,356 @@
+CRITICAL - 2023-11-01 00:28:24 --> Invalid file: admin/manage-lokasi/index1.php
+#0 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/manage-lo...')
+#1 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('admin/manage-lo...', Array, true)
+#2 C:\xampp\htdocs\Pengaduan\app\Controllers\Admin\KelolaLokasi.php(26): view('admin/manage-lo...', Array)
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin\KelolaLokasi->index()
+#4 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KelolaLokasi))
+#5 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2023-11-01 00:28:48 --> Unknown column 'tbl_lokasi.id' in 'where clause'
+CRITICAL - 2023-11-01 00:28:48 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\BaseModel.php(538): CodeIgniter\Model->doFind(true, '1')
+#1 C:\xampp\htdocs\Pengaduan\app\Controllers\Admin\KelolaLokasi.php(95): CodeIgniter\BaseModel->find('1')
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin\KelolaLokasi->ubah('1')
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KelolaLokasi))
+#4 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2023-11-01 00:31:19 --> Unknown column 'tbl_lokasi.id' in 'where clause'
+CRITICAL - 2023-11-01 00:31:19 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\BaseModel.php(538): CodeIgniter\Model->doFind(true, '1')
+#1 C:\xampp\htdocs\Pengaduan\app\Controllers\Admin\KelolaLokasi.php(95): CodeIgniter\BaseModel->find('1')
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin\KelolaLokasi->ubah('1')
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KelolaLokasi))
+#4 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-11-01 00:33:22 --> Undefined variable $id
+#0 C:\xampp\htdocs\Pengaduan\app\Controllers\Admin\KelolaLokasi.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 95)
+#1 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin\KelolaLokasi->ubah('1')
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KelolaLokasi))
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-11-01 00:34:35 --> Class "App\Models\ManageLokasiModel" not found
+#0 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(903): App\Controllers\Admin\KelolaLokasi->__construct()
+#1 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(429): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-11-01 00:34:56 --> Undefined variable $id
+#0 C:\xampp\htdocs\Pengaduan\app\Controllers\Admin\KelolaLokasi.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 95)
+#1 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin\KelolaLokasi->ubah('1')
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KelolaLokasi))
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-11-01 00:35:10 --> Unknown column 'tbl_lokasi.id' in 'where clause'
+CRITICAL - 2023-11-01 00:35:10 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\BaseModel.php(538): CodeIgniter\Model->doFind(true, '1')
+#1 C:\xampp\htdocs\Pengaduan\app\Controllers\Admin\KelolaLokasi.php(95): CodeIgniter\BaseModel->find('1')
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin\KelolaLokasi->ubah('1')
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KelolaLokasi))
+#4 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2023-11-01 00:36:03 --> Unknown column 'tbl_lokasi.id' in 'where clause'
+CRITICAL - 2023-11-01 00:36:03 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\BaseModel.php(538): CodeIgniter\Model->doFind(true, '1')
+#1 C:\xampp\htdocs\Pengaduan\app\Controllers\Admin\KelolaLokasi.php(95): CodeIgniter\BaseModel->find('1')
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin\KelolaLokasi->ubah('1')
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KelolaLokasi))
+#4 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2023-11-01 00:36:47 --> Unknown column 'tbl_lokasi.id' in 'where clause'
+CRITICAL - 2023-11-01 00:36:47 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\BaseModel.php(538): CodeIgniter\Model->doFind(true, '1')
+#1 C:\xampp\htdocs\Pengaduan\app\Controllers\Admin\KelolaLokasi.php(95): CodeIgniter\BaseModel->find('1')
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin\KelolaLokasi->ubah('1')
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KelolaLokasi))
+#4 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-11-01 00:42:07 --> Class CodeIgniter\Model contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (CodeIgniter\BaseModel::doFindColumn)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2023-11-01 00:42:52 --> Unknown column 'tbl_lokasi.id' in 'where clause'
+CRITICAL - 2023-11-01 00:42:52 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\BaseModel.php(538): CodeIgniter\Model->doFind(true, '1')
+#1 C:\xampp\htdocs\Pengaduan\app\Controllers\Admin\KelolaLokasi.php(95): CodeIgniter\BaseModel->find('1')
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin\KelolaLokasi->ubah('1')
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KelolaLokasi))
+#4 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2023-11-01 00:45:49 --> Unknown column 'tbl_lokasi.id' in 'where clause'
+CRITICAL - 2023-11-01 00:45:49 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\BaseModel.php(538): CodeIgniter\Model->doFind(true, '1')
+#1 C:\xampp\htdocs\Pengaduan\app\Controllers\Admin\KelolaLokasi.php(95): CodeIgniter\BaseModel->find('1')
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin\KelolaLokasi->ubah('1')
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KelolaLokasi))
+#4 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2023-11-01 00:46:19 --> Unknown column 'tbl_lokasi.id' in 'where clause'
+CRITICAL - 2023-11-01 00:46:19 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\BaseModel.php(538): CodeIgniter\Model->doFind(true, '1')
+#1 C:\xampp\htdocs\Pengaduan\app\Controllers\Admin\KelolaLokasi.php(95): CodeIgniter\BaseModel->find('1')
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin\KelolaLokasi->ubah('1')
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KelolaLokasi))
+#4 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2023-11-01 00:46:48 --> Unknown column 'tbl_lokasi.id' in 'where clause'
+CRITICAL - 2023-11-01 00:46:48 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\BaseModel.php(538): CodeIgniter\Model->doFind(true, '1')
+#1 C:\xampp\htdocs\Pengaduan\app\Controllers\Admin\KelolaLokasi.php(95): CodeIgniter\BaseModel->find('1')
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin\KelolaLokasi->ubah('1')
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KelolaLokasi))
+#4 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2023-11-01 00:48:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+CRITICAL - 2023-11-01 00:48:44 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\BaseModel.php(538): CodeIgniter\Model->doFind(true, '1')
+#1 C:\xampp\htdocs\Pengaduan\app\Controllers\Admin\KelolaLokasi.php(95): CodeIgniter\BaseModel->find('1')
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin\KelolaLokasi->ubah('1')
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KelolaLokasi))
+#4 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-11-01 00:49:38 --> Undefined variable $id_lokasi
+#0 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\BaseModel.php(538): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 538)
+#1 C:\xampp\htdocs\Pengaduan\app\Controllers\Admin\KelolaLokasi.php(95): CodeIgniter\BaseModel->find('1')
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin\KelolaLokasi->ubah('1')
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KelolaLokasi))
+#4 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-11-01 00:50:15 --> Undefined variable $id_lokasi
+#0 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\BaseModel.php(538): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 538)
+#1 C:\xampp\htdocs\Pengaduan\app\Controllers\Admin\KelolaLokasi.php(95): CodeIgniter\BaseModel->find('1')
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin\KelolaLokasi->ubah('1')
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KelolaLokasi))
+#4 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2023-11-01 00:51:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+CRITICAL - 2023-11-01 00:51:25 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\BaseModel.php(539): CodeIgniter\Model->doFind(true, '1', NULL)
+#1 C:\xampp\htdocs\Pengaduan\app\Controllers\Admin\KelolaLokasi.php(95): CodeIgniter\BaseModel->find('1')
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin\KelolaLokasi->ubah('1')
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KelolaLokasi))
+#4 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2023-11-01 00:51:48 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+CRITICAL - 2023-11-01 00:51:48 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\BaseModel.php(539): CodeIgniter\Model->doFind(true, '49', NULL)
+#1 C:\xampp\htdocs\Pengaduan\app\Controllers\Admin\Pengaduan.php(60): CodeIgniter\BaseModel->find('49')
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\admin\Pengaduan->detail('49')
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Pengaduan))
+#4 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-11-01 00:52:27 --> Declaration of CodeIgniter\Model::doFind(bool $singleton, $id, $id_lokasi) must be compatible with CodeIgniter\BaseModel::doFind(bool $singleton, $id = null)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-11-01 00:52:59 --> Declaration of CodeIgniter\Model::doFind(bool $singleton, $id, $id_lokasi) must be compatible with CodeIgniter\BaseModel::doFind(bool $singleton, $id = null)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-11-01 00:53:35 --> Undefined variable $id_lokasi
+#0 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\BaseModel.php(538): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 538)
+#1 C:\xampp\htdocs\Pengaduan\app\Controllers\Admin\Pengaduan.php(60): CodeIgniter\BaseModel->find('49')
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\admin\Pengaduan->detail('49')
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Pengaduan))
+#4 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2023-11-01 00:55:17 --> Unknown column 'id_lokasi' in 'order clause'
+CRITICAL - 2023-11-01 00:55:17 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\Pengaduan\app\Controllers\Admin\KelolaLokasi.php(24): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin\KelolaLokasi->index()
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KelolaLokasi))
+#4 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2023-11-01 00:55:55 --> Unknown column 'id_lokasi' in 'order clause'
+CRITICAL - 2023-11-01 00:55:55 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\Pengaduan\app\Controllers\Admin\KelolaLokasi.php(24): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin\KelolaLokasi->index()
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KelolaLokasi))
+#4 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2023-11-01 00:57:00 --> Unknown column 'id_lokasi' in 'order clause'
+CRITICAL - 2023-11-01 00:57:00 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\Pengaduan\app\Controllers\Admin\KelolaLokasi.php(24): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin\KelolaLokasi->index()
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KelolaLokasi))
+#4 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-11-01 00:57:17 --> Undefined array key "id_lokasi"
+#0 C:\xampp\htdocs\Pengaduan\app\Views\admin\manage-lokasi\index.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 60)
+#1 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('admin/manage-lo...', Array, true)
+#4 C:\xampp\htdocs\Pengaduan\app\Controllers\Admin\KelolaLokasi.php(26): view('admin/manage-lo...', Array)
+#5 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin\KelolaLokasi->index()
+#6 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KelolaLokasi))
+#7 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-11-01 00:57:41 --> Undefined array key "row_status"
+#0 C:\xampp\htdocs\Pengaduan\app\Controllers\Admin\KelolaLokasi.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 104)
+#1 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin\KelolaLokasi->ubah('1')
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KelolaLokasi))
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-11-01 01:03:46 --> Undefined array key "row_status"
+#0 C:\xampp\htdocs\Pengaduan\app\Controllers\Admin\KelolaLokasi.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 104)
+#1 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin\KelolaLokasi->ubah('1')
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KelolaLokasi))
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-11-01 01:15:25 --> syntax error, unexpected token "."
+#0 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('admin/kelolalok...')
+#1 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(812): CodeIgniter\Router\Router->handle('admin/kelolalok...')
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-11-01 02:20:23 --> Too few arguments to function App\Controllers\Admin\KelolaLokasi::soft_delete(), 0 passed in C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php on line 931 and exactly 1 expected
+#0 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin\KelolaLokasi->soft_delete()
+#1 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KelolaLokasi))
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-11-01 02:52:41 --> Too few arguments to function App\Controllers\Admin\KelolaLokasi::soft_delete(), 0 passed in C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php on line 931 and exactly 1 expected
+#0 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin\KelolaLokasi->soft_delete()
+#1 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KelolaLokasi))
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-11-01 02:54:10 --> Undefined property: App\Controllers\Admin\KelolaLokasi::$ManageUser
+#0 C:\xampp\htdocs\Pengaduan\app\Controllers\Admin\KelolaLokasi.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin\KelolaLokasi->soft_delete()
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KelolaLokasi))
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-11-01 02:54:42 --> Undefined property: App\Controllers\Admin\KelolaLokasi::$KelolaLokasi
+#0 C:\xampp\htdocs\Pengaduan\app\Controllers\Admin\KelolaLokasi.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin\KelolaLokasi->soft_delete()
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KelolaLokasi))
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-11-01 02:56:13 --> Too few arguments to function App\Controllers\Admin\KelolaLokasi::soft_delete(), 0 passed in C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php on line 931 and exactly 1 expected
+#0 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin\KelolaLokasi->soft_delete()
+#1 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KelolaLokasi))
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-11-01 02:56:37 --> Undefined variable $id
+#0 C:\xampp\htdocs\Pengaduan\app\Controllers\Admin\KelolaLokasi.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin\KelolaLokasi->soft_delete()
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KelolaLokasi))
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-11-01 03:00:31 --> Undefined variable $id
+#0 C:\xampp\htdocs\Pengaduan\app\Controllers\Admin\KelolaLokasi.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin\KelolaLokasi->soft_delete()
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KelolaLokasi))
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-11-01 03:01:12 --> Too few arguments to function App\Controllers\Admin\KelolaLokasi::soft_delete(), 0 passed in C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php on line 931 and exactly 1 expected
+#0 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin\KelolaLokasi->soft_delete()
+#1 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KelolaLokasi))
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-11-01 03:21:17 --> Undefined variable $lokasi
+#0 C:\xampp\htdocs\Pengaduan\app\Views\admin\manage-lokasi\index.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 67)
+#1 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('admin/manage-lo...', Array, true)
+#4 C:\xampp\htdocs\Pengaduan\app\Controllers\Admin\KelolaLokasi.php(26): view('admin/manage-lo...', Array)
+#5 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin\KelolaLokasi->index()
+#6 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KelolaLokasi))
+#7 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-11-01 03:24:42 --> Undefined variable $lokasi
+#0 C:\xampp\htdocs\Pengaduan\app\Controllers\Admin\KelolaLokasi.php(155): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 155)
+#1 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin\KelolaLokasi->delete('31')
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KelolaLokasi))
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-11-01 03:25:41 --> Class "App\Controllers\Admin\lokasi" not found
+#0 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin\KelolaLokasi->delete('31')
+#1 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KelolaLokasi))
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-11-01 03:26:16 --> Call to undefined method App\Controllers\Admin\KelolaLokasi::find()
+#0 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin\KelolaLokasi->delete('31')
+#1 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KelolaLokasi))
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-11-01 03:26:16 --> Call to undefined method App\Controllers\Admin\KelolaLokasi::find()
+#0 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin\KelolaLokasi->delete('31')
+#1 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KelolaLokasi))
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}

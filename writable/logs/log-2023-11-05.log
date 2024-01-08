@@ -1,0 +1,277 @@
+CRITICAL - 2023-11-05 01:45:01 --> Undefined variable $id
+#0 C:\xampp\htdocs\Pengaduan\app\Controllers\Lokasi.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 25)
+#1 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Lokasi->index()
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-11-05 01:45:58 --> Cannot declare class App\Controllers\Admin\Lokasi, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-11-05 01:06:05 --> Undefined array key "judul_aspirasi"
+#0 C:\xampp\htdocs\Pengaduan\app\Views\admin\manage-lokasi\index.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 52)
+#1 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('admin/manage-lo...', Array, true)
+#4 C:\xampp\htdocs\Pengaduan\app\Controllers\Admin\KelolaLokasi.php(26): view('admin/manage-lo...', Array)
+#5 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin\KelolaLokasi->index()
+#6 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KelolaLokasi))
+#7 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-11-05 01:07:01 --> Undefined array key "status_aspirasi"
+#0 C:\xampp\htdocs\Pengaduan\app\Views\admin\manage-lokasi\index.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('admin/manage-lo...', Array, true)
+#4 C:\xampp\htdocs\Pengaduan\app\Controllers\Admin\KelolaLokasi.php(26): view('admin/manage-lo...', Array)
+#5 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin\KelolaLokasi->index()
+#6 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KelolaLokasi))
+#7 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-11-05 03:59:45 --> Undefined array key "num"
+#0 C:\xampp\htdocs\Pengaduan\app\Views\admin\manage-lokasi\index.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 57)
+#1 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('admin/manage-lo...', Array, true)
+#4 C:\xampp\htdocs\Pengaduan\app\Controllers\Admin\KelolaLokasi.php(26): view('admin/manage-lo...', Array)
+#5 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin\KelolaLokasi->index()
+#6 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KelolaLokasi))
+#7 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-11-05 04:12:50 --> Trying to access array offset on value of type int
+#0 C:\xampp\htdocs\Pengaduan\app\Views\admin\manage-lokasi\index.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 70)
+#1 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('admin/manage-lo...', Array, true)
+#4 C:\xampp\htdocs\Pengaduan\app\Controllers\Admin\KelolaLokasi.php(26): view('admin/manage-lo...', Array)
+#5 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin\KelolaLokasi->index()
+#6 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KelolaLokasi))
+#7 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-11-05 04:20:26 --> Undefined variable $user
+#0 C:\xampp\htdocs\Pengaduan\app\Views\templates\topbar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\View\View.php(487): CodeIgniter\View\View->render('templates/topba...', NULL, true)
+#4 C:\xampp\htdocs\Pengaduan\app\Views\templates\index.php(52): CodeIgniter\View\View->include('templates/topba...')
+#5 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\View\View.php(246): CodeIgniter\View\View->render('templates/index', Array, true)
+#8 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('admin/manage-lo...', Array, true)
+#9 C:\xampp\htdocs\Pengaduan\app\Controllers\Lokasi.php(26): view('admin/manage-lo...', Array)
+#10 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Lokasi->index()
+#11 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+#12 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#14 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2023-11-05 09:13:31 --> Undefined variable $id
+#0 C:\xampp\htdocs\Pengaduan\app\Models\LokasiModel.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\Pengaduan\app\Controllers\Admin\KelolaLokasi.php(45): App\Models\LokasiModel->getLokasi()
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin\KelolaLokasi->tambah()
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KelolaLokasi))
+#4 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-11-05 09:14:28 --> Undefined variable $id
+#0 C:\xampp\htdocs\Pengaduan\app\Models\LokasiModel.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\Pengaduan\app\Controllers\Admin\KelolaLokasi.php(45): App\Models\LokasiModel->getLokasi()
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin\KelolaLokasi->tambah()
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KelolaLokasi))
+#4 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-11-05 09:16:12 --> Undefined variable $id
+#0 C:\xampp\htdocs\Pengaduan\app\Models\LokasiModel.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\Pengaduan\app\Controllers\Admin\KelolaLokasi.php(45): App\Models\LokasiModel->getLokasi()
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin\KelolaLokasi->tambah()
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KelolaLokasi))
+#4 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-11-05 09:17:26 --> Undefined variable $id
+#0 C:\xampp\htdocs\Pengaduan\app\Models\LokasiModel.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\Pengaduan\app\Controllers\Admin\KelolaLokasi.php(45): App\Models\LokasiModel->getLokasi()
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin\KelolaLokasi->tambah()
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KelolaLokasi))
+#4 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-11-05 09:17:35 --> Undefined variable $id
+#0 C:\xampp\htdocs\Pengaduan\app\Models\LokasiModel.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\Pengaduan\app\Controllers\Lokasi.php(43): App\Models\LokasiModel->getLokasi()
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Lokasi->tambah()
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+#4 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-11-05 09:18:31 --> Call to undefined method App\Models\LokasiModel::getLokasi
+#0 C:\xampp\htdocs\Pengaduan\app\Controllers\Lokasi.php(43): CodeIgniter\Model->__call('getLokasi', Array)
+#1 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Lokasi->tambah()
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-11-05 09:40:10 --> Undefined variable $id
+#0 C:\xampp\htdocs\Pengaduan\app\Controllers\Lokasi.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 32)
+#1 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Lokasi->soft_delete()
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-11-05 09:42:31 --> Undefined variable $lokasi
+#0 C:\xampp\htdocs\Pengaduan\app\Controllers\Lokasi.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Lokasi->soft_delete()
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-11-05 09:42:31 --> Undefined variable $lokasi
+#0 C:\xampp\htdocs\Pengaduan\app\Controllers\Lokasi.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Lokasi->soft_delete()
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-11-05 09:43:16 --> Undefined variable $id
+#0 C:\xampp\htdocs\Pengaduan\app\Controllers\Lokasi.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Lokasi->soft_delete()
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-11-05 09:43:57 --> Too few arguments to function App\Controllers\Lokasi::soft_delete(), 0 passed in C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php on line 931 and exactly 1 expected
+#0 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Lokasi->soft_delete()
+#1 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-11-05 09:45:00 --> Too few arguments to function App\Controllers\Lokasi::soft_delete(), 0 passed in C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php on line 931 and exactly 1 expected
+#0 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Lokasi->soft_delete()
+#1 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-11-05 09:45:37 --> Too few arguments to function App\Controllers\Lokasi::soft_delete(), 0 passed in C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php on line 931 and exactly 1 expected
+#0 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Lokasi->soft_delete()
+#1 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-11-05 09:46:52 --> Too few arguments to function App\Controllers\Lokasi::soft_delete(), 0 passed in C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php on line 931 and exactly 1 expected
+#0 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Lokasi->soft_delete()
+#1 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-11-05 09:47:16 --> Too few arguments to function App\Controllers\Lokasi::soft_delete(), 0 passed in C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php on line 931 and exactly 1 expected
+#0 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Lokasi->soft_delete()
+#1 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-11-05 09:58:06 --> Too few arguments to function App\Controllers\Lokasi::soft_delete(), 0 passed in C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php on line 931 and exactly 1 expected
+#0 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Lokasi->soft_delete()
+#1 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-11-05 09:58:08 --> Undefined array key "judul_aspirasi"
+#0 C:\xampp\htdocs\Pengaduan\app\Views\admin\manage-lokasi\index.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 52)
+#1 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('admin/manage-lo...', Array, true)
+#4 C:\xampp\htdocs\Pengaduan\app\Controllers\Admin\KelolaLokasi.php(26): view('admin/manage-lo...', Array)
+#5 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin\KelolaLokasi->index()
+#6 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KelolaLokasi))
+#7 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-11-05 09:58:13 --> Undefined array key "judul_aspirasi"
+#0 C:\xampp\htdocs\Pengaduan\app\Views\admin\manage-lokasi\index.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 52)
+#1 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('admin/manage-lo...', Array, true)
+#4 C:\xampp\htdocs\Pengaduan\app\Controllers\Admin\KelolaLokasi.php(26): view('admin/manage-lo...', Array)
+#5 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin\KelolaLokasi->index()
+#6 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KelolaLokasi))
+#7 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-11-05 10:24:57 --> Too few arguments to function App\Controllers\Lokasi::soft_delete(), 0 passed in C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php on line 931 and exactly 1 expected
+#0 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Lokasi->soft_delete()
+#1 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-11-05 10:27:55 --> Undefined variable $id
+#0 C:\xampp\htdocs\Pengaduan\app\Controllers\Lokasi.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Lokasi->soft_delete()
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-11-05 10:28:19 --> Too few arguments to function App\Controllers\Lokasi::soft_delete(), 0 passed in C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php on line 931 and exactly 1 expected
+#0 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Lokasi->soft_delete()
+#1 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-11-05 10:29:59 --> Too few arguments to function App\Controllers\Lokasi::soft_delete(), 0 passed in C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php on line 931 and exactly 1 expected
+#0 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Lokasi->soft_delete()
+#1 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-11-05 10:30:08 --> Too few arguments to function App\Controllers\Lokasi::soft_delete(), 0 passed in C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php on line 931 and exactly 1 expected
+#0 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Lokasi->soft_delete()
+#1 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-11-05 10:48:38 --> Cannot use object of type App\Models\LokasiModel as array
+#0 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Lokasi->index()
+#1 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-11-05 10:49:25 --> Cannot use object of type App\Models\LokasiModel as array
+#0 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Lokasi->index()
+#1 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}

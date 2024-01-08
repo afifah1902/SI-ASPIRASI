@@ -1,0 +1,12 @@
+CRITICAL - 2023-12-10 07:59:22 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\SI-ASPIRASI\app\Views\admin\pengaduan\detail_pengaduan2.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 100)
+#1 C:\xampp\htdocs\SI-ASPIRASI\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\SI-ASPIRASI\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\SI-ASPIRASI\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('admin/pengaduan...', Array, true)
+#4 C:\xampp\htdocs\SI-ASPIRASI\app\Controllers\Admin\Pengaduan.php(162): view('admin/pengaduan...', Array)
+#5 C:\xampp\htdocs\SI-ASPIRASI\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\admin\Pengaduan->detail2('1')
+#6 C:\xampp\htdocs\SI-ASPIRASI\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Pengaduan))
+#7 C:\xampp\htdocs\SI-ASPIRASI\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\SI-ASPIRASI\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\SI-ASPIRASI\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}

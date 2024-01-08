@@ -1,0 +1,310 @@
+CRITICAL - 2023-10-30 08:03:21 --> Undefined variable $lokasi
+#0 C:\xampp\htdocs\Pengaduan\app\Views\user\pengaduan\tambah_pengaduan.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 68)
+#1 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('user/pengaduan/...', Array, true)
+#4 C:\xampp\htdocs\Pengaduan\app\Controllers\Pengaduan.php(66): view('user/pengaduan/...', Array)
+#5 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Pengaduan->tambah()
+#6 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengaduan))
+#7 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-10-30 08:12:24 --> Undefined variable $lokasi
+#0 C:\xampp\htdocs\Pengaduan\app\Views\user\pengaduan\tambah_pengaduan.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 68)
+#1 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('user/pengaduan/...', Array, true)
+#4 C:\xampp\htdocs\Pengaduan\app\Controllers\Pengaduan.php(69): view('user/pengaduan/...', Array)
+#5 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Pengaduan->tambah()
+#6 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengaduan))
+#7 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-10-30 08:19:06 --> Undefined property: App\Controllers\Pengaduan::$modellokasi
+#0 C:\xampp\htdocs\Pengaduan\app\Controllers\Pengaduan.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 67)
+#1 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Pengaduan->tambah()
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengaduan))
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-10-30 08:19:57 --> Undefined property: App\Controllers\Pengaduan::$modellokasi
+#0 C:\xampp\htdocs\Pengaduan\app\Controllers\Pengaduan.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 67)
+#1 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Pengaduan->tambah()
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengaduan))
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-10-30 08:39:20 --> Undefined array key "nama_lokasi"
+#0 C:\xampp\htdocs\Pengaduan\app\Views\user\pengaduan\tambah_pengaduan.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 69)
+#1 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('user/pengaduan/...', Array, true)
+#4 C:\xampp\htdocs\Pengaduan\app\Controllers\Pengaduan.php(71): view('user/pengaduan/...', Array)
+#5 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Pengaduan->tambah()
+#6 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengaduan))
+#7 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-10-30 08:39:59 --> Undefined array key "nama_lokasi"
+#0 C:\xampp\htdocs\Pengaduan\app\Views\user\pengaduan\tambah_pengaduan.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 69)
+#1 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('user/pengaduan/...', Array, true)
+#4 C:\xampp\htdocs\Pengaduan\app\Controllers\Pengaduan.php(71): view('user/pengaduan/...', Array)
+#5 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Pengaduan->tambah()
+#6 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengaduan))
+#7 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-10-30 08:41:31 --> Undefined array key "judul_pengaduan"
+#0 C:\xampp\htdocs\Pengaduan\app\Views\user\pengaduan\index.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 52)
+#1 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('user/pengaduan/...', Array, true)
+#4 C:\xampp\htdocs\Pengaduan\app\Controllers\Pengaduan.php(29): view('user/pengaduan/...', Array)
+#5 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Pengaduan->index()
+#6 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengaduan))
+#7 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-10-30 08:43:51 --> Undefined array key "nama_pengadu"
+#0 C:\xampp\htdocs\Pengaduan\app\Views\user\pengaduan\detail.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('user/pengaduan/...', Array, true)
+#4 C:\xampp\htdocs\Pengaduan\app\Controllers\Pengaduan.php(60): view('user/pengaduan/...', Array)
+#5 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Pengaduan->detail('49')
+#6 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengaduan))
+#7 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-10-30 08:46:11 --> Undefined array key "judul_pengaduan"
+#0 C:\xampp\htdocs\Pengaduan\app\Views\user\pengaduan\ubah_pengaduan.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('user/pengaduan/...', Array, true)
+#4 C:\xampp\htdocs\Pengaduan\app\Controllers\Pengaduan.php(203): view('user/pengaduan/...', Array)
+#5 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Pengaduan->ubah('49')
+#6 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengaduan))
+#7 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-10-30 08:51:34 --> Undefined array key "nama_pengadu"
+#0 C:\xampp\htdocs\Pengaduan\app\Views\user\pengaduan\ubah_pengaduan.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('user/pengaduan/...', Array, true)
+#4 C:\xampp\htdocs\Pengaduan\app\Controllers\Pengaduan.php(203): view('user/pengaduan/...', Array)
+#5 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Pengaduan->ubah('49')
+#6 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengaduan))
+#7 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-10-30 09:06:00 --> syntax error, unexpected variable "$data", expecting "," or ";"
+#0 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('user/pengaduan/...', Array, true)
+#2 C:\xampp\htdocs\Pengaduan\app\Controllers\Pengaduan.php(60): view('user/pengaduan/...', Array)
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Pengaduan->detail('49')
+#4 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengaduan))
+#5 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-30 09:46:08 --> Undefined variable $user
+#0 C:\xampp\htdocs\Pengaduan\app\Views\auth\register.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 69)
+#1 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('auth/register', Array, true)
+#4 C:\xampp\htdocs\Pengaduan\app\Controllers\Auth.php(105): view('auth/register', Array)
+#5 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Auth->register()
+#6 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-10-30 09:46:44 --> Undefined variable $user
+#0 C:\xampp\htdocs\Pengaduan\app\Views\auth\register.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 69)
+#1 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('auth/register', Array, true)
+#4 C:\xampp\htdocs\Pengaduan\app\Controllers\Auth.php(105): view('auth/register', Array)
+#5 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Auth->register()
+#6 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2023-10-30 09:58:28 --> Unknown column 'judul_pengaduan' in 'field list'
+CRITICAL - 2023-10-30 09:58:28 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\Pengaduan\app\Controllers\Admin\Pengaduan.php(87): App\Models\Admin\PengaduanModel->get_datatables()
+#1 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\admin\Pengaduan->dt_pengaduan()
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Pengaduan))
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-10-30 10:00:28 --> Unknown column 'judul_pengaduan' in 'field list'
+CRITICAL - 2023-10-30 10:00:28 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\Pengaduan\app\Controllers\Admin\Pengaduan.php(87): App\Models\Admin\PengaduanModel->get_datatables()
+#1 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\admin\Pengaduan->dt_pengaduan()
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Pengaduan))
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-10-30 10:00:51 --> Unknown column 'judul_pengaduan' in 'field list'
+CRITICAL - 2023-10-30 10:00:51 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\Pengaduan\app\Controllers\Admin\Pengaduan.php(87): App\Models\Admin\PengaduanModel->get_datatables()
+#1 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\admin\Pengaduan->dt_pengaduan()
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Pengaduan))
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-10-30 10:05:07 --> Unknown column 'judul_pengaduan' in 'field list'
+CRITICAL - 2023-10-30 10:05:07 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\Pengaduan\app\Controllers\Admin\Pengaduan.php(87): App\Models\Admin\PengaduanModel->get_datatables()
+#1 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\admin\Pengaduan->dt_pengaduan()
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Pengaduan))
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-10-30 10:08:32 --> Unknown column 'judul_pengaduan' in 'field list'
+CRITICAL - 2023-10-30 10:08:32 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\Pengaduan\app\Controllers\Admin\Pengaduan.php(87): App\Models\Admin\PengaduanModel->get_datatables()
+#1 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\admin\Pengaduan->dt_pengaduan()
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Pengaduan))
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-10-30 10:11:50 --> Unknown column 'judul_pengaduan' in 'field list'
+CRITICAL - 2023-10-30 10:11:50 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\Pengaduan\app\Controllers\Admin\Pengaduan.php(188): App\Models\Admin\PengaduanModel->get_datatables_dp()
+#1 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\admin\Pengaduan->dt_pengaduan_diproses()
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Pengaduan))
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-10-30 10:12:24 --> Unknown column 'judul_pengaduan' in 'field list'
+CRITICAL - 2023-10-30 10:12:24 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\Pengaduan\app\Controllers\Admin\Pengaduan.php(131): App\Models\Admin\PengaduanModel->get_datatables_pm()
+#1 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\admin\Pengaduan->dt_pengaduan_masuk()
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Pengaduan))
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-10-30 10:16:20 --> Undefined property: stdClass::$status_pengaduan
+#0 C:\xampp\htdocs\Pengaduan\app\Controllers\Admin\Pengaduan.php(145): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 145)
+#1 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\admin\Pengaduan->dt_pengaduan_masuk()
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Pengaduan))
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-10-30 10:20:38 --> Undefined property: stdClass::$status_pengaduan
+#0 C:\xampp\htdocs\Pengaduan\app\Controllers\Admin\Pengaduan.php(145): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 145)
+#1 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\admin\Pengaduan->dt_pengaduan_masuk()
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Pengaduan))
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-10-30 10:22:04 --> Undefined property: stdClass::$status_pengaduan
+#0 C:\xampp\htdocs\Pengaduan\app\Controllers\Admin\Pengaduan.php(145): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 145)
+#1 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\admin\Pengaduan->dt_pengaduan_masuk()
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Pengaduan))
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-10-30 10:23:59 --> Undefined array key "status_pengaduan"
+#0 C:\xampp\htdocs\Pengaduan\app\Views\admin\pengaduan\detail_pengaduan.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('admin/pengaduan...', Array, true)
+#4 C:\xampp\htdocs\Pengaduan\app\Controllers\Admin\Pengaduan.php(68): view('admin/pengaduan...', Array)
+#5 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\admin\Pengaduan->detail('49')
+#6 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Pengaduan))
+#7 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-10-30 10:24:23 --> Undefined array key "status_pengaduan"
+#0 C:\xampp\htdocs\Pengaduan\app\Views\admin\pengaduan\detail_pengaduan.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('admin/pengaduan...', Array, true)
+#4 C:\xampp\htdocs\Pengaduan\app\Controllers\Admin\Pengaduan.php(68): view('admin/pengaduan...', Array)
+#5 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\admin\Pengaduan->detail('49')
+#6 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Pengaduan))
+#7 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-10-30 10:26:49 --> Undefined array key "status_pengaduan"
+#0 C:\xampp\htdocs\Pengaduan\app\Views\admin\pengaduan\detail_pengaduan.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('admin/pengaduan...', Array, true)
+#4 C:\xampp\htdocs\Pengaduan\app\Controllers\Admin\Pengaduan.php(68): view('admin/pengaduan...', Array)
+#5 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\admin\Pengaduan->detail('49')
+#6 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Pengaduan))
+#7 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-10-30 10:27:47 --> Undefined property: stdClass::$status_pengaduan
+#0 C:\xampp\htdocs\Pengaduan\app\Controllers\Admin\Pengaduan.php(202): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 202)
+#1 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\admin\Pengaduan->dt_pengaduan_diproses()
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Pengaduan))
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-10-30 23:03:43 --> Cannot declare class App\Controllers\ManageLokasi, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-10-30 23:05:46 --> Cannot declare class App\Controllers\ManageLokasi1, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-10-30 23:08:07 --> Cannot declare class App\Controllers\KelolaLokasi, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-10-30 23:15:19 --> Undefined variable $data
+#0 C:\xampp\htdocs\Pengaduan\app\Views\admin\manage-lokasi\index.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('admin/manage-lo...', Array, true)
+#4 C:\xampp\htdocs\Pengaduan\app\Controllers\Admin\KelolaLokasi.php(28): view('admin/manage-lo...', Array)
+#5 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin\KelolaLokasi->index()
+#6 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KelolaLokasi))
+#7 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-10-30 23:16:46 --> Undefined variable $data
+#0 C:\xampp\htdocs\Pengaduan\app\Views\admin\manage-lokasi\index.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 48)
+#1 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('admin/manage-lo...', Array, true)
+#4 C:\xampp\htdocs\Pengaduan\app\Controllers\Admin\KelolaLokasi.php(28): view('admin/manage-lo...', Array)
+#5 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin\KelolaLokasi->index()
+#6 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KelolaLokasi))
+#7 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}

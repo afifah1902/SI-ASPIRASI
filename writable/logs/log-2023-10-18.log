@@ -1,0 +1,51 @@
+CRITICAL - 2023-10-18 10:06:26 --> Constant FILTER_SANITIZE_STRING is deprecated
+#0 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\HTTP\CLIRequest.php(205): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Constant FILTER...', 'C:\\xampp\\htdocs...', 205)
+#1 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\HTTP\CLIRequest.php(70): CodeIgniter\HTTP\CLIRequest->parseCommand()
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Config\Services.php(133): CodeIgniter\HTTP\CLIRequest->__construct(Object(Config\App))
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Config\BaseService.php(263): CodeIgniter\Config\Services::clirequest(Object(Config\App), false)
+#4 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Config\BaseService.php(192): CodeIgniter\Config\BaseService::__callStatic('clirequest', Array)
+#5 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Config\Services.php(128): CodeIgniter\Config\BaseService::getSharedInstance('clirequest', Object(Config\App))
+#6 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Config\BaseService.php(263): CodeIgniter\Config\Services::clirequest(Object(Config\App))
+#7 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(589): CodeIgniter\Config\BaseService::__callStatic('clirequest', Array)
+#8 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->getRequestObject()
+#9 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CLI\Console.php(61): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Pengaduan\spark(66): CodeIgniter\CLI\Console->run()
+#11 {main}
+CRITICAL - 2023-10-18 10:13:00 --> Constant FILTER_SANITIZE_STRING is deprecated
+#0 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Router\RouteCollection.php(1369): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Constant FILTER...', 'C:\\xampp\\htdocs...', 1369)
+#1 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Router\RouteCollection.php(629): CodeIgniter\Router\RouteCollection->create('*', 'BaseController(...', Object(Closure), NULL)
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Config\Routes.php(27): CodeIgniter\Router\RouteCollection->add('BaseController(...', Object(Closure))
+#3 C:\xampp\htdocs\Pengaduan\app\Config\Routes.php(11): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(799): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#6 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CLI\Console.php(61): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Pengaduan\spark(66): CodeIgniter\CLI\Console->run()
+#9 {main}
+CRITICAL - 2023-10-18 10:14:12 --> Constant FILTER_SANITIZE_STRING is deprecated
+#0 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Router\RouteCollection.php(265): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Constant FILTER...', 'C:\\xampp\\htdocs...', 265)
+#1 C:\xampp\htdocs\Pengaduan\app\Config\Routes.php(19): CodeIgniter\Router\RouteCollection->setDefaultNamespace('App\\Controllers')
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(799): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CLI\Console.php(61): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Pengaduan\spark(66): CodeIgniter\CLI\Console->run()
+#7 {main}
+CRITICAL - 2023-10-18 10:14:40 --> Constant FILTER_SANITIZE_STRING is deprecated
+#0 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Router\RouteCollection.php(282): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Constant FILTER...', 'C:\\xampp\\htdocs...', 282)
+#1 C:\xampp\htdocs\Pengaduan\app\Config\Routes.php(20): CodeIgniter\Router\RouteCollection->setDefaultController('Home')
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(799): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CLI\Console.php(61): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Pengaduan\spark(66): CodeIgniter\CLI\Console->run()
+#7 {main}
+CRITICAL - 2023-10-18 10:14:56 --> Constant FILTER_SANITIZE_STRING is deprecated
+#0 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\Router\RouteCollection.php(298): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Constant FILTER...', 'C:\\xampp\\htdocs...', 298)
+#1 C:\xampp\htdocs\Pengaduan\app\Config\Routes.php(21): CodeIgniter\Router\RouteCollection->setDefaultMethod('index')
+#2 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(799): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Pengaduan\vendor\codeigniter4\framework\system\CLI\Console.php(61): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Pengaduan\spark(66): CodeIgniter\CLI\Console->run()
+#7 {main}

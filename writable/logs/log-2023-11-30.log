@@ -1,0 +1,32 @@
+CRITICAL - 2023-11-30 22:27:11 --> Undefined property: stdClass::$id_pengaduan
+#0 C:\xampp\htdocs\SI-ASPIRASI\app\Controllers\Admin\Pengaduan.php(232): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 232)
+#1 C:\xampp\htdocs\SI-ASPIRASI\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\admin\Pengaduan->dt_pengaduan_masuk()
+#2 C:\xampp\htdocs\SI-ASPIRASI\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Pengaduan))
+#3 C:\xampp\htdocs\SI-ASPIRASI\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SI-ASPIRASI\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\SI-ASPIRASI\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-11-30 22:27:22 --> Undefined property: stdClass::$id_pengaduan
+#0 C:\xampp\htdocs\SI-ASPIRASI\app\Controllers\Admin\Pengaduan.php(232): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 232)
+#1 C:\xampp\htdocs\SI-ASPIRASI\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\admin\Pengaduan->dt_pengaduan_masuk()
+#2 C:\xampp\htdocs\SI-ASPIRASI\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Pengaduan))
+#3 C:\xampp\htdocs\SI-ASPIRASI\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SI-ASPIRASI\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\SI-ASPIRASI\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-11-30 22:27:49 --> Undefined property: stdClass::$id_pengaduan
+#0 C:\xampp\htdocs\SI-ASPIRASI\app\Controllers\Admin\Pengaduan.php(232): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 232)
+#1 C:\xampp\htdocs\SI-ASPIRASI\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\admin\Pengaduan->dt_pengaduan_masuk()
+#2 C:\xampp\htdocs\SI-ASPIRASI\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Pengaduan))
+#3 C:\xampp\htdocs\SI-ASPIRASI\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SI-ASPIRASI\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\SI-ASPIRASI\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-11-30 22:42:16 --> Undefined array key "status_aspirasi"
+#0 C:\xampp\htdocs\SI-ASPIRASI\app\Controllers\Pengaduan.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 118)
+#1 C:\xampp\htdocs\SI-ASPIRASI\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Pengaduan->tambah_pengaduan()
+#2 C:\xampp\htdocs\SI-ASPIRASI\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengaduan))
+#3 C:\xampp\htdocs\SI-ASPIRASI\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SI-ASPIRASI\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\SI-ASPIRASI\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
